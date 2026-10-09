@@ -111,6 +111,17 @@ Refresh afterwards, and the tasks are still there.
 
 Every conversation uses your LiveKit, Synthesia and OpenAI usage, so end the conversation when you're done.
 
+## Synthesia docs to get started
+
+- [Interactive Avatars overview](https://docs.synthesia.io/reference/interactive-avatars): what they are and how they work
+- [Concepts](https://docs.synthesia.io/reference/ia-concepts): how a LiveKit agent attaches the avatar, the session lifecycle, and a glossary
+- [Integration overview](https://docs.synthesia.io/reference/ia-overview): the pieces you connect and what each one does
+- [Minimal quickstart](https://docs.synthesia.io/reference/interactive-avatar-minimal-quickstart): the starting point for this project
+- [Tools quickstart](https://docs.synthesia.io/reference/interactive-avatar-tools-quickstart): an avatar that fills in a form as you talk
+- [RAG quickstart](https://docs.synthesia.io/reference/interactive-avatar-rag-quickstart): an avatar that answers from your own documents
+- [LiveKit plugin reference](https://docs.synthesia.io/reference/ia-livekit-plugin-reference)
+- [Quickstart source code on GitHub](https://github.com/synthesia-ai/interactive-avatar-quickstarts)
+
 ## What's in here
 
 | Path | What it is |
