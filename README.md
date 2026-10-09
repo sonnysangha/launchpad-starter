@@ -83,7 +83,7 @@ The starting point is Synthesia's [minimal quickstart](https://docs.synthesia.io
 
 1. > Use the synthesia-interactive-avatar skill, the LiveKit agent skills and Synthesia's minimal quickstart to add an onboarding guide to this app. Put the Python agent in its own agent folder, show the guide in a bottom-right widget, and give it a male voice.
 2. > When I ask to see part of the app, have the guide click the real buttons to show me.
-3. > Have the guide answer questions using only the six files in docs/product, and show which page each answer came from.
+3. > Teach the guide how Launchpad works using the docs in the docs/product folder. It should only answer from those docs, say so when it doesn't know, and show which doc each answer came from.
 4. > Let the guide add tasks and move them between stages when I ask, using the New task and Move task buttons. It should only say it's done after the save succeeds.
 
 Review what it builds after each prompt, and run the app before moving on. Your result won't match the video line for line, which is normal for a coding agent.
