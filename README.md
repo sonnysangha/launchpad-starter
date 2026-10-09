@@ -16,7 +16,7 @@ and LiveKit. The product docs that the guide answers from are already here in
 
 ## Part 1. Run the app
 
-You need [Node 24](https://nodejs.org) or newer and a free [Clerk](https://clerk.com) account.
+You need [Node 24](https://nodejs.org) or newer and a free [Clerk](https://go.clerk.com/sonny) account.
 
 1. Clone and install.
 
@@ -26,7 +26,7 @@ You need [Node 24](https://nodejs.org) or newer and a free [Clerk](https://clerk
    npm ci
    ```
 
-2. Get your Clerk keys. In the [Clerk dashboard](https://dashboard.clerk.com), create an application, open **API keys**, and copy the publishable key and secret key. Use the **development** keys.
+2. Get your Clerk keys. [Sign up for Clerk](https://go.clerk.com/sonny), then in the Clerk dashboard create an application, open **API keys**, and copy the publishable key and secret key. Use the **development** keys.
 
 3. Copy `.env.example` to `.env.local` and paste the two keys in.
 
