@@ -64,13 +64,14 @@ npx skills add synthesia-ai/skills
 npx skills add livekit/agent-skills
 ```
 
-Sources: Synthesia's [Interactive Avatars page](https://www.synthesia.io/features/avatars/interactive-avatars) ("Let your coding agent handle integration") and LiveKit's [Agent Skills docs](https://docs.livekit.io/reference/developer-tools/agent-skills/).
+Sources: Synthesia's [Interactive Avatars page](https://www.synthesia.io/features/avatars/interactive-avatars?utm_source=youtube&utm_medium=creator&utm_campaign=interactive_avatar_api&utm_content=sonny) ("Let your coding agent handle integration") and LiveKit's [Agent Skills docs](https://docs.livekit.io/reference/developer-tools/agent-skills/).
 
 ### 2. Get your keys
 
 | Key | Where to get it |
 | --- | --- |
 | LiveKit URL, API key, API secret | Create a free project on [LiveKit Cloud](https://cloud.livekit.io). It also runs Cartesia for speech, so you don't need a separate Cartesia key. |
+| Synthesia account | [Sign up for Synthesia Interactive Avatars](https://www.synthesia.io/features/avatars/interactive-avatars?utm_source=youtube&utm_medium=creator&utm_campaign=interactive_avatar_api&utm_content=sonny). |
 | Synthesia API key | [Create your API key](https://docs.synthesia.io/reference/synthesia-api-quickstart#create-your-api-key). Your plan needs Interactive Avatars. |
 | Synthesia avatar ID | In [Synthesia Studio](https://app.synthesia.io), open an avatar's ••• menu and choose **Copy Interactive ID**. Stock actor avatars such as Ryan or Ada don't work. |
 | OpenAI API key | [platform.openai.com/api-keys](https://platform.openai.com/api-keys) |
