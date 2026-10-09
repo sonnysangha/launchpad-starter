@@ -1,0 +1,17 @@
+node_modules/
+.next/
+.env
+.env.*
+!.env.example
+.data/
+**/__pycache__/
+test-results/
+playwright-report/
+*.log
+.tools/
+*.tsbuildinfo
+e2e/.artifacts/
+
+# Local-only files
+:memory:*
+.DS_Store
