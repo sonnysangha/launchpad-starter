@@ -13,7 +13,7 @@ export async function POST(request: Request) {
     assertSameOrigin(request, appOrigin());
     const hostname = new URL(appOrigin()).hostname;
     if (!["localhost", "127.0.0.1", "[::1]"].includes(hostname)) {
-      throw new AppError("LOCAL_ONLY", "Reset is available only for the local filming workspace.", 403);
+      throw new AppError("LOCAL_ONLY", "Reset is available only for the local demo workspace.", 403);
     }
     const userId = await requireUser();
     await readJson(request, resetSchema);

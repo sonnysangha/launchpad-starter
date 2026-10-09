@@ -88,6 +88,8 @@ The starting point is Synthesia's [minimal quickstart](https://docs.synthesia.io
 
 Review what it builds after each prompt, and run the app before moving on. Your result won't match the video line for line, which is normal for a coding agent.
 
+Want to compare with the finished version from the video? It's at [launchpad-ai-guide](https://github.com/sonnysangha/launchpad-ai-guide).
+
 ### 4. Run it
 
 The Python agent is a separate worker that sits next to the app. The app gives your browser a LiveKit room, and the worker joins the same room and brings the avatar with it. Use two terminals:
